@@ -7,3 +7,6 @@ Windows 10 (64-bit), English or Japanese
 ## How to use
 1. Rename `device_mac.txt.example` to `device_mac.txt` and list up the `device name` and `MAC address` of each device you want to find.
 1. Run script with admin privileges.
+
+## Note
+The batch file must be saved with `cp937` / `Shift_JIS` encoding for Japanese characters to work on `cmd.exe`.
